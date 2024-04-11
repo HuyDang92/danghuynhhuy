@@ -19,7 +19,7 @@ const config = {
       },
       extend: {
          boxShadow: {
-            cs_shadow: "0px 0px 46px -3px rgba(0,0,0,0.1)",
+            cs_shadow: "0px 3px 25px -3px rgba(0,0,0,0.2)",
          },
          colors: {
             cs_purple: "#7127BA",

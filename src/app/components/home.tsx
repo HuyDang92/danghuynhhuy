@@ -3,11 +3,12 @@
 import { GlobeDemo } from "@/app/components/globeDemo";
 import Icon from "@/components/ui/Icon";
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
+import { useEffect } from "react";
 
 export default function Home() {
    return (
-      <div className="flex justify-center h-screen">
-         <div className="p-3 rounded-xl w-[1100px] flex justify-between">
+      <div id="Home" className="flex justify-center h-screen">
+         <div className="p-3 rounded-xl w-[1200px] flex justify-between">
             <div>
                <div className="flex gap-5 pt-36">
                   <div className="relative">
@@ -30,7 +31,7 @@ export default function Home() {
                            />
                         </span>
                         <br />
-                        <span className="text-[10px]">
+                        <span className="text-[12px]">
                            Because if the cover does not impress you what else can?
                         </span>
                         <br />
